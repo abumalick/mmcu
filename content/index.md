@@ -9,7 +9,6 @@ hero: /assets/img/frontpage.jpg
 hero2: /assets/img/frontpage2.jpg
 titre: |-
   La Maison Médicale
-
   de Cureghem
 ---
 
