@@ -1,10 +1,10 @@
 {
   "private": true,
-  "name": "mmsg",
-  "homepage": "https://mmsg.be",
-  "version": "0.0.2",
+  "name": "mmcu",
+  "homepage": "https://mmcu.be",
+  "version": "0.1",
   "twitter": "",
-  "repository": "git@github.com:asbab/mmsg.git",
+  "repository": "git@github.com:asbab/mmcu.git",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
     "lint:css": "stylelint \"src/**/*.css\"",

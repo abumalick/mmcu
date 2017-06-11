@@ -2,11 +2,11 @@
 layout: Fonctionnement
 title: Fonctionnement
 description: >-
-  La MMSG est un centre médical a pour but de répondre à tous vos besoins en
+  La Maison Médicale de Cureghem est un centre médical a pour but de répondre à tous vos besoins en
   termes de santé. Les services sont assurés par des spécialistes qualifiés dans
   les domaines dont vous avez besoin. Les différents services sont repris dans
   le tableau ci-dessous:
-titre: Fonctionnement de la Maison Médicale de Saint-Guidon
+titre: Fonctionnement de la Maison Médicale de Cureghem
 titreFaq: Questions fréquement posées
 faq:
   q1:
@@ -73,5 +73,3 @@ form:
   title: Nous poser une question
 hero: /assets/img/fonctionnement.jpg
 ---
-
-

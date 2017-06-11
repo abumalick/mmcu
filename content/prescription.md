@@ -2,7 +2,7 @@
 layout: Formulaire
 title: Prescription
 description: >-
-  La MMSG est un centre médical a pour but de répondre à tous vos besoins en
+  La Maison Médicale de Cureghem est un centre médical a pour but de répondre à tous vos besoins en
   termes de santé. Les services sont assurés par des spécialistes qualifiés dans
   les domaines dont vous avez besoin. Les différents services sont repris dans
   le tableau ci-dessous:
@@ -50,6 +50,7 @@ form:
     titre: Numéro de téléphone
 hero: /assets/img/prescription.jpg
 ---
+
 Vous avez besoin d'une prescription et vous ne voulez pas un nouveau rendez-vous rien que pour ça ?
 
 Vous pouvez commander une prescription via le formulaire ci-dessous.

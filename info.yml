@@ -1,13 +1,13 @@
-nomdusite: Maison Médicale Saint-Guidon
+nomdusite: Maison Médicale Cureghem
 tel: 02/527 97 90
-email: contact@mmsg.be
+email: contact@mmcureghem.be
 adresse: |-
   Avenue Paul Janson 44,
 
   1070 Anderlecht
 carte: 'https://goo.gl/maps/H7VVEMLE44m'
 license: >-
-  ©2017 - [mmsg.be](https://mmsg.be) - sous une license [CC BY
+  ©2017 - [mmcureghem.be](https://mmcureghem.be) - sous une license [CC BY
   4.0](http://creativecommons.org/licenses/by/4.0/)
 blocs:
   contact:
@@ -20,7 +20,7 @@ blocs:
 
       [02/527 97 90](tel:025279790)
 
-      [contact@mmsg.be](mailto:contact@mmsg.be)
+      [contact@mmcureghem.be](mailto:contact@mmcureghem.be)
     titre: Où sommes nous ?
   horaires:
     icone: clock

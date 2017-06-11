@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: asbab/mmsg # replace by your repo
+  repo: asbab/mmcu # replace by your repo
   branch: master # replace if you want netlify-cms publish on a different branch
 
 media_folder: "content/assets"
@@ -151,7 +151,7 @@ collections:
                   - {label: "Titre du bloc message", name: titre, widget: string}
                   - {label: "Aide du bloc message", name: aide, widget: string}
       - name: "services"
-        label: "Accueil des services"
+        label: "Services: Accueil"
         file: "content/services/index.md"
         description: "Page d'accueil des services du site"
         fields:
