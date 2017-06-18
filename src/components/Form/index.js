@@ -80,7 +80,7 @@ class AForm extends Component {
         <Form
           success={this.state.isSent}
           error={!!this.state.error}
-          action="https://envoi.mmsg.be/"
+          action="https://mmcureghem.asbab.net/"
           method="POST"
           className={styles.form}>
           <Form.Group widths="equal">
