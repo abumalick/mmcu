@@ -1,8 +1,27 @@
+menu:
+  i1:
+    link: /
+    title: Accueil
+  i2:
+    link: /horaires
+    title: Horaires
+  i3:
+    link: /nouveautes
+    title: Nouveautés
+  i4:
+    link: /fonctionnement
+    title: Fonctionnement
+  i5:
+    link: /services
+    title: Services
+  i6:
+    link: /contact
+    title: Contact
 nomdusite: Maison Médicale Cureghem
-tel: 02/527 97 90
+tel: 02/527 30 11
 email: contact@mmcureghem.be
 adresse: |-
-  Avenue Paul Janson 44,
+  Rue Van Lint, 1
 
   1070 Anderlecht
 carte: 'https://goo.gl/maps/H7VVEMLE44m'
@@ -14,23 +33,21 @@ blocs:
     icone: direction
     lien: Nous contacter >
     texte: |-
-      [Avenue Paul Janson 44,](https://goo.gl/maps/H7VVEMLE44m)
+      [Rue Van Lint, 1](https://goo.gl/maps/H7VVEMLE44m)
 
       [1070 Anderlecht](https://goo.gl/maps/H7VVEMLE44m)
 
-      [02/527 97 90](tel:025279790)
+      [02/527 30 11](tel:025273011)
 
       [contact@mmcureghem.be](mailto:contact@mmcureghem.be)
     titre: Où sommes nous ?
   horaires:
     icone: clock
     lien: Horaires des services >
-    texte: |-
-      Du Lundi au Vendredi
+    texte: |
+      Du lundi au vendredi : de 8 à 19h
 
-      De 9h00 à 12h30
-
-      De 14h00 à 18h00
+      Le samedi de 9h30 à 13h30
     titre: Horaires
   prescription:
     icone: note
@@ -43,8 +60,8 @@ blocs:
     icone: cal
     lien: Prendre un rendez-vous >
     texte: >-
-      Vous pouvez prendre rendez-vous par téléphone au [02/527 97
-      90](tel:025279790) ou en remplissant le formulaire sur notre site internet
+      Vous pouvez prendre rendez-vous par téléphone au [02/527 30
+      11](tel:025273011) ou en remplissant le formulaire sur notre site internet
     titre: Rendez-vous
 barrelaterale:
   - horaires
@@ -56,25 +73,6 @@ blocksaccueil:
   - contact
   - rendez-vous
   - prescription
-menu:
-  i1:
-    title: Accueil
-    link: /
-  i2:
-    title: Horaires
-    link: /horaires
-  i3:
-    title: Nouveautés
-    link: /nouveautes
-  i4:
-    title: Fonctionnement
-    link: /fonctionnement
-  i5:
-    title: Services
-    link: /services
-  i6:
-    title: Contact
-    link: /contact
 pieddepage:
   - horaires
   - contact
