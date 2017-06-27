@@ -16,7 +16,6 @@ hero: /assets/img/mmsg-map.jpg
 hero2: /assets/img/contact.jpg
 ---
 
-Vous pouvez nous téléphoner au [02/527 30 11](tel:025279790)
+Vous pouvez nous téléphoner au [02/527 30 11](tel:025273011)
 
 Ou remplir le formulaire de contact ci-dessous :
-
