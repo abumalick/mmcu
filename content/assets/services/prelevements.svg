@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 155">
   <g transform="translate(-54.468 769)">
-    <path fill="#66666f" d="M111.82-756l2.56 9.73 76.5 76.5c9.8 9.8 9.8 25.6 0 35.4-9.8 9.8-25.6 9.8-35.42 0l-76.5-76.5-9.7-2.55z"/>
+    <path fill="#bb151b" d="M111.82-756l2.56 9.73 76.5 76.5c9.8 9.8 9.8 25.6 0 35.4-9.8 9.8-25.6 9.8-35.42 0l-76.5-76.5-9.7-2.55z"/>
     <path fill="#fff" d="M139.17-713.55l46.95 46.95c7.6 7.6 7.6 19.87 0 27.48-7.6 7.6-19.87 7.6-27.48 0l-46.95-46.95z"/>
     <circle cx="592.64" cy="-414.35" r="4.64" fill="#fff" transform="rotate(-45)"/>
-    <circle cx="575.78" cy="-397.49" r="4.64" fill="#66666f" transform="rotate(-45)"/>
-    <circle cx="586.68" cy="-385.62" r="6.26" fill="#66666f" transform="rotate(-45)"/>
-    <circle cx="593.49" cy="-464.94" r="4.64" fill="#66666f" transform="rotate(-45)"/>
-    <circle cx="578.45" cy="-475.2" r="7.3" fill="#66666f" transform="rotate(-45)"/>
+    <circle cx="575.78" cy="-397.49" r="4.64" fill="#bb151b" transform="rotate(-45)"/>
+    <circle cx="586.68" cy="-385.62" r="6.26" fill="#bb151b" transform="rotate(-45)"/>
+    <circle cx="593.49" cy="-464.94" r="4.64" fill="#bb151b" transform="rotate(-45)"/>
+    <circle cx="578.45" cy="-475.2" r="7.3" fill="#bb151b" transform="rotate(-45)"/>
   </g>
 </svg>
