@@ -4,15 +4,16 @@ import React from 'react';
 import {Button, Menu} from 'semantic-ui-react';
 import {Link} from 'phenomic';
 // import "../../semantic/dist/components/menu.min.css"
+import styles from './index.css'
 
 import Svg from 'react-svg-inline';
 import logo from '../../../content/assets/logo.svg';
 //<Image src={`/assets/logo.svg`} alt={'logo'} height="32px" />
 const NavBar = ({menu, handleClick}) =>
   <Menu inverted className="nav-bar large">
-    <Menu.Item className="my-logo" header>
+    <Menu.Item className={styles.logo} header>
       <Link to={'/'}>
-        <Svg svg={logo} cleanup height="32px" />
+        <Svg svg={logo} height="32px" />
       </Link>
     </Menu.Item>
     {Object.entries(menu).map(([key, {title, link}]) =>

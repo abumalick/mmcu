@@ -24,16 +24,16 @@ const Block = ({block, theme}, {metadata: {info: {blocs}}}) =>
       <Svg
         className="block-svg"
         svg={icons[blocs[block].icone]}
-        cleanup
         height={theme === 'pieddepage' ? '16px' : '35px'}
-      />
-      {' '}
+      />{' '}
       {blocs[block].titre}
     </h3>
     <div className={styles.blockText}>
       <Markdown text={blocs[block].texte} />
     </div>
-    <Link to={`/${block}`}>{blocs[block].lien}</Link>
+    <Link to={`/${block}`}>
+      {blocs[block].lien}
+    </Link>
   </div>;
 Block.propTypes = {
   block: PropTypes.string.isRequired,

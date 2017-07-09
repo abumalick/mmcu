@@ -60,8 +60,10 @@ export default class Homepage extends Component {
                 </Grid.Column>
                 <Grid.Column key="body" mobile={16} tablet={8} computer={8}>
                   <div className={styles.hero2Body}>
-                    <Svg svg={house} cleanup height="60px" />
-                    <h1>{this.props.head.titre}</h1>
+                    <Svg svg={house} height="60px" />
+                    <h1>
+                      {this.props.head.titre}
+                    </h1>
                     <p
                       contentEditable="true"
                       dangerouslySetInnerHTML={{__html: this.props.body}}
