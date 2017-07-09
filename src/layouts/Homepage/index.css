@@ -1,9 +1,9 @@
 .hero {
-  height: 46vw;
-  max-height: 518px; /*1127*.34px;*/
-  /* fallback, mainly visible when hero image is loading */
-  background-color: var(--colorSecondary);
+  height: 100px;
+  background-color: #fff;
   margin-bottom: 28px;
+  text-align: center;
+  padding: 20px;
 }
 
 .hero2 {

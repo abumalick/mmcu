@@ -1,3 +1,5 @@
+logo: /assets/logo.svg
+logoSimple: /assets/logoSimple.svg
 menu:
   i1:
     link: /
@@ -24,7 +26,7 @@ adresse: |-
   Rue Van Lint, 1
 
   1070 Anderlecht
-carte: 'https://goo.gl/maps/H7VVEMLE44m'
+carte: 'https://goo.gl/maps/w2FmAv4AfaC2'
 license: >-
   ©2017 - [mmcureghem.be](https://mmcureghem.be) - sous une license [CC BY
   4.0](http://creativecommons.org/licenses/by/4.0/)

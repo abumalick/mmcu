@@ -10,7 +10,8 @@ import styles from './index.css';
 import enhanceCollection from 'phenomic/lib/enhance-collection';
 
 import Svg from 'react-svg-inline'; // <Svg svg={ twitterSvg } cleanup />
-import house from '../../../content/assets/icons/house.svg';
+import logo from '../../../content/assets/logo.svg';
+import logoSimple from '../../../content/assets/logoSimple.svg';
 //<Image src={`/assets/icons/house.svg`} alt={'logo'} centered height="60px" />
 
 export default class Homepage extends Component {
@@ -21,6 +22,7 @@ export default class Homepage extends Component {
 
   static contextTypes = {
     collection: PropTypes.array,
+    metadata: PropTypes.object,
   };
 
   render() {
@@ -31,15 +33,9 @@ export default class Homepage extends Component {
           {...this.props}
           header={
             <div>
-              <div
-                className={styles.hero}
-                style={
-                  this.props.head.hero && {
-                    background: `#fff url(${this.props.head
-                      .hero}) 0% 50% / cover`,
-                  }
-                }
-              />
+              <div className={styles.hero}>
+                <img src={this.context.metadata.info.logo} height="50px" />
+              </div>
               <Blocks theme="blocksaccueil" className="hide-mobile" />
             </div>
           }
@@ -60,7 +56,7 @@ export default class Homepage extends Component {
                 </Grid.Column>
                 <Grid.Column key="body" mobile={16} tablet={8} computer={8}>
                   <div className={styles.hero2Body}>
-                    <Svg svg={house} height="60px" />
+                    <img src={this.context.metadata.info.logoSimple} height="50px" />
                     <h1>
                       {this.props.head.titre}
                     </h1>
