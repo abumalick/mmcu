@@ -197,7 +197,7 @@ class AForm extends Component {
             header="Message non envoyé"
             content={`Le champ suivant est obligatoire: ${this.state.error}`}
           />
-          <Form.Button primary size="large" onClick={this.handleValidate}>
+          <Form.Button className={styles.button} size="large" onClick={this.handleValidate}>
             <Svg className={styles.svg} svg={send} cleanup height="1.5rem" />
             <span className={styles.buttonText}>Envoyer</span>
           </Form.Button>

@@ -1,19 +1,17 @@
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 // http://react.semantic-ui.com/collections/menu
-import React from 'react';
-import {Button, Menu} from 'semantic-ui-react';
-import {Link} from 'phenomic';
+import React from 'react'
+import {Button, Menu} from 'semantic-ui-react'
+import {Link} from 'phenomic'
 // import "../../semantic/dist/components/menu.min.css"
 import styles from './index.css'
+import Logo from '../Logo'
 
-import Svg from 'react-svg-inline';
-import logo from '../../../content/assets/logo.svg';
-//<Image src={`/assets/logo.svg`} alt={'logo'} height="32px" />
 const NavBar = ({menu, handleClick}) =>
   <Menu inverted className="nav-bar large">
     <Menu.Item className={styles.logo} header>
-      <Link to={'/'}>
-        <Svg svg={logo} height="32px" />
+      <Link to={'/'} style={{lineHeight: 0}}>
+        <Logo height="32px" />
       </Link>
     </Menu.Item>
     {Object.entries(menu).map(([key, {title, link}]) =>
@@ -30,12 +28,11 @@ const NavBar = ({menu, handleClick}) =>
         <path d="M0,9 10,9" stroke="#eee" strokeWidth="2" />
       </svg>
     </Button>
-
-  </Menu>;
+  </Menu>
 
 NavBar.propTypes = {
   menu: PropTypes.object.isRequired,
   handleClick: PropTypes.func.isRequired,
-};
+}
 
-export default NavBar;
+export default NavBar

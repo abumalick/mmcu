@@ -12,9 +12,14 @@
 .desc {
   padding: 10px;
 }
+.button button:global(.button) {
+  background-color: #bb151b;
+  color: #fff;
+}
 .svg {
   position: absolute;
-  bottom: .5rem
+  bottom: .5rem;
+  fill: #fff;
 }
 .buttonText {
   padding-left: 2.3rem;

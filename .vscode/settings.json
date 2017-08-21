@@ -3,5 +3,8 @@
   "prettier.bracketSpacing": false,
   "prettier.jsxBracketSameLine": true,
   "prettier.trailingComma": "all",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  }
 }

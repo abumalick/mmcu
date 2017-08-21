@@ -12,7 +12,7 @@ form:
     aide: Ecrivez votre message ici
     titre: Votre message
   title: Laisser un message
-hero: /assets/img/mmsg-map.jpg
+hero: /assets/img/map.png
 hero2: /assets/img/contact.jpg
 ---
 

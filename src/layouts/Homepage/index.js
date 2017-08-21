@@ -10,9 +10,9 @@ import styles from './index.css';
 import enhanceCollection from 'phenomic/lib/enhance-collection';
 
 import Svg from 'react-svg-inline'; // <Svg svg={ twitterSvg } cleanup />
-import logo from '../../../content/assets/logo.svg';
+import Logo from '../../components/Logo'
 import logoSimple from '../../../content/assets/logoSimple.svg';
-//<Image src={`/assets/icons/house.svg`} alt={'logo'} centered height="60px" />
+
 
 export default class Homepage extends Component {
   static propTypes = {
@@ -34,7 +34,7 @@ export default class Homepage extends Component {
           header={
             <div>
               <div className={styles.hero}>
-                <img src={this.context.metadata.info.logo} height="50px" />
+              <Logo height="50px" color="#bb151b" />
               </div>
               <Blocks theme="blocksaccueil" className="hide-mobile" />
             </div>
@@ -56,7 +56,8 @@ export default class Homepage extends Component {
                 </Grid.Column>
                 <Grid.Column key="body" mobile={16} tablet={8} computer={8}>
                   <div className={styles.hero2Body}>
-                    <img src={this.context.metadata.info.logoSimple} height="50px" />
+              <Logo height="50px" color="#bb151b" text={false} />
+                    
                     <h1>
                       {this.props.head.titre}
                     </h1>

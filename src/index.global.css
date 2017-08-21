@@ -5,7 +5,9 @@
  *
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  */
-html { box-sizing: border-box; }
+html {
+  box-sizing: border-box;
+}
 
 *,
 *::before,
@@ -45,8 +47,8 @@ body {
 
 @media only screen and (max-width: 767px) {
   .ui.container {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
   .hide-mobile {
     display: none !important;
@@ -58,7 +60,7 @@ body {
 
 /* nav */
 .navbar-wrapper {
-  background-color: #333;
+  background-color: #bb151b;
 }
 .navbar-wrapper .ui.inverted.menu.nav-bar {
   background-color: transparent;
@@ -76,16 +78,16 @@ body {
   padding: 0;
 }
 .ui.inverted.menu .item a.active {
-    background: rgba(255,255,255,.15);
-    color: #fff!important;
-    font-weight: 400;
-    box-shadow: none;
+  background: rgba(255, 255, 255, .15);
+  color: #fff !important;
+  font-weight: 400;
+  box-shadow: none;
 }
 .button-menu.ui.inverted.button.active,
 .ui.inverted.button:focus,
 .button-menu.ui.inverted.button:hover {
-    background: #222;
-    color: initial;
+  background: #222;
+  color: initial;
 }
 
 /* Body Container */
@@ -112,7 +114,7 @@ body {
   text-align: center;
 }
 .block p a {
-  color: #333
+  color: #333;
 }
 .block-blocksaccueil,
 .block-barrelaterale {
@@ -139,4 +141,3 @@ body {
 .block-barrelaterale .block-svg {
   display: block;
 }
-
