@@ -11,7 +11,7 @@ apres-horaires: >-
 
   - tous les jours de 19 à 22h
 
-  - les samedis de 13h30 à 22h
+  - les samedis de 9h30 à 13h30
 
   - les dimanches et les jours fériés de 9 à 22h
 
@@ -23,14 +23,22 @@ introduction: null
 
 # Horaires des différents services
 
-## [Service de prélèvements](/services/prelevements/)
+## [Service de médecine générale](/services/medecine-generale)
 
--   Du lundi au vendredi de 8h30 à 12h30.
+* Du lundi au vendredi de 9h à 12 h et de 15h à 19h
+
+## [Service de kinésithérapie](/services/kinesitherapie)
+
+* Du lundi au vendredi de 9h à 19h
 
 ## [Service de pédiatrie](/services/pediatrie)
 
--   le jeudi de 13 à 18h
--   le vendredi de 9 à 13h
+* Le mardi de 14h à 17h
+* Le jeudi de 15h à 18h
+
+## [Service de prélèvements](/services/prelevements/) [et soins infirmiers](/services/soins-infirmiers)
+
+* Du lundi au vendredi de 8h30 à 12h30.
 
 ## [Autres services](/services/)
 

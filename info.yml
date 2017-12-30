@@ -40,8 +40,6 @@ blocs:
       [1070 Anderlecht](https://goo.gl/maps/H7VVEMLE44m)
 
       [02/527 30 11](tel:025273011)
-
-      [contact@mmcureghem.be](mailto:contact@mmcureghem.be)
     titre: Où sommes nous ?
   horaires:
     icone: clock
@@ -51,32 +49,21 @@ blocs:
 
       Le samedi de 9h30 à 13h30
     titre: Horaires
-  prescription:
-    icone: note
-    lien: Faire une demande de prescription >
-    texte: >-
-      Vous pouvez demander une prescription à votre médecin sans prendre de
-      rendez-vous.
-    titre: Prescription
   rendez-vous:
     icone: cal
-    lien: Prendre un rendez-vous >
     texte: >-
       Vous pouvez prendre rendez-vous par téléphone au [02/527 30
-      11](tel:025273011) ou en remplissant le formulaire sur notre site internet
+      11](tel:025273011)
     titre: Rendez-vous
 barrelaterale:
   - horaires
   - contact
   - rendez-vous
-  - prescription
 blocksaccueil:
   - horaires
   - contact
   - rendez-vous
-  - prescription
 pieddepage:
   - horaires
   - contact
   - rendez-vous
-  - prescription
