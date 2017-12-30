@@ -15,7 +15,7 @@ apres-horaires: >-
 
   - les dimanches et les jours fériés de 9 à 22h
 
-  Endehors de ces heures, les patients sont priés de contacter le service de
+  En dehors de ces heures, les patients sont priés de contacter le service de
   garde mobile au : [02 201 22 22](tel:022012222)
 hero: /assets/img/horaires.jpg
 introduction: null
