@@ -27,7 +27,7 @@ faq:
     content: >-
       À chaque consultation, le patient paie les honoraires du médecin et se fait rembourser par sa mutuelle.
       
-      Si vous le souhaitez, vous pouvez désigner un médecin généraliste comme médecin traitant. Ce dernier détiendra
+      Si vous le souhaitez, vous pouvez désigner un médecin généraliste comme médecin traitant. Ce dernier détiendra la globalité  de votre dossier médical.
     title: Le paiement à l’acte? Comment ça marche ?
   q3:
     content: >-
