@@ -37,9 +37,11 @@ class Fonctionnement extends Component {
             key={`title-${i}`}
             onClick={this.handleClick}>
             <h3>{title}</h3>
-            {this.state.active === i
-              ? <span className={styles.plus}>▾</span>
-              : <span className={styles.plus}>◂</span>}
+            {this.state.active === i ? (
+              <span className={styles.plus}>▾</span>
+            ) : (
+              <span className={styles.plus}>◂</span>
+            )}
           </Accordion.Title>,
         );
         accordionItems.push(
@@ -71,14 +73,14 @@ class Fonctionnement extends Component {
             </Grid>
           }
           body="">
-          {this.props.head.faq &&
+          {this.props.head.faq && (
             <div className={styles.faq}>
               <h2>{this.props.head.titreFaq}</h2>
               <Accordion styled fluid>
                 {accordionItems}
               </Accordion>
-            </div>}
-          <Form data={this.props.head.form} />
+            </div>
+          )}
         </PageSidebar>
       </div>
     );
