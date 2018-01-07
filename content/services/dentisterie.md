@@ -2,7 +2,7 @@
 title: Dentisterie
 ordre: 11
 layout: Service
-icon: /assets/services/gynecologie.svg
+icon: /assets/services/dentisterie.svg
 ---
 
 ## Définition

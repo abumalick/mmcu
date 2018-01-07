@@ -1,8 +1,8 @@
 ---
 title: Diététique
-ordre: 10
+ordre: 12
 layout: Service
-icon: /assets/services/gynecologie.svg
+icon: /assets/services/dietetique.svg
 ---
 
 ## Définition
