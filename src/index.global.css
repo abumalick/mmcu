@@ -69,7 +69,7 @@ body {
   padding: 0;
 }
 .ui.inverted.menu .item a {
-  padding: .92857143em 1.14285714em;
+  padding: 0.92857143em 1.14285714em;
 }
 .pushable .ui.inverted.menu .item a {
   display: block;
@@ -78,7 +78,7 @@ body {
   padding: 0;
 }
 .ui.inverted.menu .item a.active {
-  background: rgba(255, 255, 255, .15);
+  background: rgba(255, 255, 255, 0.15);
   color: #fff !important;
   font-weight: 400;
   box-shadow: none;
@@ -119,7 +119,6 @@ body {
 .block-blocksaccueil,
 .block-barrelaterale {
   background-color: #fff;
-  height: 100%;
   padding: 20px 8px 10px;
 }
 .block h3 {
@@ -140,4 +139,40 @@ body {
 .block-blocksaccueil .block-svg,
 .block-barrelaterale .block-svg {
   display: block;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.items-stretch {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.mr4 {
+  margin-right: 2rem;
+}
+.mr5 {
+  margin-right: 4rem;
 }
