@@ -5,14 +5,14 @@ menu:
     link: /
     title: Accueil
   i2:
-    link: /horaires
-    title: Horaires
-  i3:
-    link: /nouveautes
-    title: Nouveautés
-  i4:
     link: /fonctionnement
     title: Fonctionnement
+  i3:
+    link: /horaires
+    title: Horaires
+  i4:
+    link: /nouveautes
+    title: Nouveautés
   i5:
     link: /services
     title: Services
