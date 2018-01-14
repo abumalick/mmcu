@@ -4,3 +4,7 @@ node_modules
 
 # phenomic build
 /dist
+
+.DS_STORE
+
+/public
