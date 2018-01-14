@@ -11,9 +11,9 @@ La diététique est la science qui étudie l’alimentation dans tous ses détai
 
 ## Horaires et rendez-vous
 
-Une diététicienne est à votre service sur [Sur rendez-vous](/rendez-vous) :
+Une diététicienne est à votre service sur rendez-vous:
 Le mardi et le jeudi de 14h à 19h (possibilité de trouver un arrangement avec la diététicienne pour un autre moment ).
 
 ## Paiement
 
-TODO: Conformément à la loi Belge concernant les services spécialisés, le service de diététique n'est pas compris dans le forfait. Le patient doit payer la consultation; la mutuelle lui remboursera une partie déterminée et **le ticket modérateur restera à sa charge**.
+Le patient paie 35 euros pour la première fois et 25 euros pour les fois suivantes. Les patients qui sont inscrits chez nous ont un tarif préférentiel à savoir: 25 euros pour la première fois et 15 euros pour la suite

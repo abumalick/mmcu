@@ -15,4 +15,4 @@ Du lundi au vendredi de 8h30 à 12h30
 
 ## Prix
 
-A la maison médicale de Cureghem, nous mettons à disposition une équipe d’infirmiers et d’infirmières au cabinet et à domicile pour toutes les personnes nécessiteuses. Les soins infirmiers seront ensuite facturés aux différentes mutuelles des patients.
+A la Maison Médicale de Cureghem, nous mettons à disposition une équipe d’infirmiers et d’infirmières au cabinet et à domicile pour toutes les personnes nécessiteuses. Les soins infirmiers seront ensuite facturés aux différentes mutuelles des patients.
