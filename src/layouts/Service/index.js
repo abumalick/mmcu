@@ -1,22 +1,22 @@
-import PropTypes from 'prop-types';
-import React, {Component} from 'react';
-import {Grid, Menu} from 'semantic-ui-react';
-import {BodyContainer, Link} from 'phenomic';
-import styles from './index.css';
-import Page from '../Page';
-import enhanceCollection from 'phenomic/lib/enhance-collection';
+import PropTypes from 'prop-types'
+import React, {Component} from 'react'
+import {Grid, Menu} from 'semantic-ui-react'
+import {BodyContainer, Link} from 'phenomic'
+import styles from './index.css'
+import Page from '../Page'
+import enhanceCollection from 'phenomic/lib/enhance-collection'
 
 class PageSidebar extends Component {
   static contextTypes = {
     collection: PropTypes.array,
-  };
+  }
   static propTypes = {
     body: PropTypes.string,
     children: PropTypes.node.isRequired,
     head: PropTypes.object,
-  };
+  }
   render() {
-    const {collection} = this.context;
+    const {collection} = this.context
     return (
       <div>
         <Page {...this.props} body="">
@@ -33,8 +33,8 @@ class PageSidebar extends Component {
                 {enhanceCollection(collection, {
                   filter: {layout: 'Service'},
                   sort: 'ordre',
-                  limit: 9,
-                }).map(item =>
+                  limit: 15,
+                }).map((item) => (
                   <Menu.Item key={item.title} style={{padding: 0}}>
                     <Link
                       to={item.__url}
@@ -47,8 +47,8 @@ class PageSidebar extends Component {
                       />
                       <div>{item.title}</div>
                     </Link>
-                  </Menu.Item>,
-                )}
+                  </Menu.Item>
+                ))}
               </Menu>
             </Grid.Column>
             <Grid.Column key="body" mobile={16} tablet={12} computer={12}>
@@ -62,8 +62,8 @@ class PageSidebar extends Component {
           </Grid>
         </Page>
       </div>
-    );
+    )
   }
 }
 
-export default PageSidebar;
+export default PageSidebar
