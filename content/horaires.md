@@ -42,4 +42,4 @@ introduction: null
 
 ## [Autres services](/services/)
 
-Les autres services sont [sur rendez-vous](/rendez-vous).
+Pour les autres services veuillez prendre rendez-vous par téléphone au [02/527 30 11](tel:025273011)
