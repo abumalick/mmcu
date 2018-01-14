@@ -158,14 +158,16 @@ body {
   -ms-flex-align: stretch;
   align-items: stretch;
 }
-
 .flex-column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
 }
-
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 .flex1 {
   flex: 1;
 }
@@ -175,4 +177,19 @@ body {
 }
 .mr5 {
   margin-right: 4rem;
+}
+
+@media screen and (min-width: 30em) {
+  .flex-row-ns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .mb25-s {
+    margin-bottom: 25px;
+  }
 }

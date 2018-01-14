@@ -49,14 +49,14 @@ const Blocks = ({theme}, {metadata: {info}}) => {
       : {mobile: 16, tablet: 8, computer: 5}
   return (
     <div
-      className={`flex ${
-        theme === 'barrelaterale' ? 'flex-column' : styles.pb12
+      className={`flex flex-column ${
+        theme === 'barrelaterale' ? '' : `flex-row-ns ${styles.pb12}`
       } justify-between items-stretch`}>
       {info[theme].map((block) => (
         <Block
           key={block}
           block={block}
-          className={`flex1 ${styles.mw300} ${
+          className={`flex1 mb25-s ${styles.mw300} ${
             theme === 'barrelaterale' ? styles.mb25 : ''
           }`}
           theme={theme}
