@@ -2,7 +2,7 @@
 title: Réflexologie Plantaire
 ordre: 14
 layout: Service
-icon: /assets/services/dietetique.svg
+icon: /assets/services/reflexologie.svg
 ---
 
 ## Définition

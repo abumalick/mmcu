@@ -2,7 +2,7 @@
 title: Autres Services
 ordre: 15
 layout: Service
-icon: /assets/services/dietetique.svg
+icon: /assets/services/autres.svg
 ---
 
 ## Définition

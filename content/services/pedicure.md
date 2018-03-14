@@ -2,7 +2,7 @@
 title: Pédicure médicale
 ordre: 13
 layout: Service
-icon: /assets/services/dietetique.svg
+icon: /assets/services/pedicure.svg
 ---
 
 ## Définition
