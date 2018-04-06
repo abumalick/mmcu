@@ -141,6 +141,11 @@ body {
   display: block;
 }
 
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,5 +196,8 @@ body {
 @media screen and (max-width: 30em) {
   .mb25-s {
     margin-bottom: 25px;
+  }
+  .mw300-s {
+    max-width: 300px;
   }
 }
