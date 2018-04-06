@@ -5,6 +5,7 @@ import warning from 'warning';
 import {BodyContainer, joinUri} from 'phenomic';
 import {Container} from 'semantic-ui-react';
 
+import Footer from '../../components/Footer';
 import Loading from '../../components/Loading';
 import Nav from '../../components/Nav';
 
@@ -21,9 +22,10 @@ const Page = (
 
   const metaTitle = head.metaTitle ? head.metaTitle : head.title;
 
-  const socialImage = head.hero && head.hero.match('://')
-    ? head.hero
-    : joinUri(process.env.PHENOMIC_USER_URL, head.hero);
+  const socialImage =
+    head.hero && head.hero.match('://')
+      ? head.hero
+      : joinUri(process.env.PHENOMIC_USER_URL, head.hero);
 
   const meta = [
     {property: 'og:type', content: 'article'},
@@ -46,16 +48,20 @@ const Page = (
     <div className={styles.page}>
       <Helmet title={metaTitle} meta={meta} />
       <Nav>
-        {isLoading
-          ? <Loading />
-          : <Container>
-              {header}
-              {body &&
-                <div className={styles.body}>
-                  <BodyContainer>{body}</BodyContainer>
-                </div>}
-              {children}
-            </Container>}
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <Container>
+            {header}
+            {body && (
+              <div className={styles.body}>
+                <BodyContainer>{body}</BodyContainer>
+              </div>
+            )}
+            {children}
+          </Container>
+        )}
+        <Footer />
         {footer}
       </Nav>
     </div>
