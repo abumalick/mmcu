@@ -6,8 +6,7 @@ description: >-
   de répondre à tous vos besoins en termes de santé. Les services sont assurés
   par des spécialistes qualifiés dans les domaines nécessaires.
 titre: Horaires de la Maison Médicale Cureghem
-apres-horaires: >-
- Une garde téléphonique est assurée en dehors des heures d'ouverture.
+apres-horaires: Une garde téléphonique est assurée en dehors des heures d'ouverture.
 hero: /assets/img/horaires.jpg
 introduction: Horaires d'ouverture
 ---

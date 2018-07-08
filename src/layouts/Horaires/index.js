@@ -55,9 +55,9 @@ class Horaires extends Component {
                         text={this.context.metadata.info.blocs.horaires.texte}
                       />
                     </div>
-                    <p className={styles.apresHoraires}>
+                    <div className={styles.apresHoraires}>
                       <Markdown text={this.props.head['apres-horaires']} />
-                    </p>
+                    </div>
                   </div>
                 </div>
               </Grid.Column>
