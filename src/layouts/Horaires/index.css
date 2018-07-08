@@ -80,3 +80,8 @@
   max-width: 600px;
   padding-left: 20px;
 }
+@media screen and (max-width: 30em) {
+  .pageHoraires :global(.phenomic-BodyContainer) {
+    padding: 40px 30px 30px;
+  }
+}
