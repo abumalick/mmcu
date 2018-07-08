@@ -44,12 +44,15 @@
   margin-bottom: 14px;
 }
 
-.left {
-  text-align: left;
+.horaires {
+  background-color: #f2f2f2;
+  padding: 10px 30px;
+  margin: 20px 0;
+}
+.horaires h2 {
+  margin-bottom: 8px;
 }
 .horaires > p {
-  padding: 10px 30px;
-  background-color: #f2f2f2;
 }
 .horaires > p > p {
   margin-bottom: 0;

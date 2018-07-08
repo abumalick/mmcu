@@ -47,14 +47,14 @@ class Horaires extends Component {
                 <div className={styles.heroBody}>
                   <h1>{this.props.head.titre}</h1>
                   <div>
-                    <p className={styles.left}>
-                      {this.props.head.introduction}
-                    </p>
-                    <p className={styles.horaires}>
+                    <div className={styles.horaires}>
+                      <h2 className={styles.left}>
+                        {this.props.head.introduction}
+                      </h2>
                       <Markdown
                         text={this.context.metadata.info.blocs.horaires.texte}
                       />
-                    </p>
+                    </div>
                     <p className={styles.apresHoraires}>
                       <Markdown text={this.props.head['apres-horaires']} />
                     </p>
