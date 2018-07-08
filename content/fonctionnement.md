@@ -25,13 +25,46 @@ faq:
     title: C'est quoi une Maison Médicale ?
   q2:
     content: >-
-      À chaque consultation, le patient paie les honoraires du médecin et se fait rembourser par sa mutuelle.
-      
-      Si vous le souhaitez, vous pouvez désigner un médecin généraliste comme médecin traitant. Ce dernier détiendra la globalité  de votre dossier médical.
-    title: Le paiement à l’acte? Comment ça marche ?
+      Le mode de financement traditionnel des soins de santé est celui nommé à
+      l'acte. Ce système consiste à payer le prestataire de soins pour ensuite
+      se faire rembourser une partie de ce montant par la mutuelle.
+
+
+      Une maison médicale au forfait propose un mode de financement alternatif.
+      **Les patients ne payent plus les soins couverts par le forfait**, c'est
+      la mutuelle qui verse mensuellement une somme forfaitaire fixe à la maison
+      médicale pour couvrir les soins de santé.
+
+
+      Plus d'informations sur [le site de la fédération des maisons
+      médicales](http://www.maisonmedicale.org/Les-maisons-medicales-au-forfait.html)
+    title: Le forfait ? Comment ça marche ?
   q3:
     content: >-
-      Vous pouvez consulter d'autres médecins généralistes et spécialistes en dehors de la Maison Médicale et vous serez remboursés d'une manière normale. Nous rappelons que notre système vous laisse la liberté de choix de prestataire.
+      **Ça ne vous coûte rien du tout !** C'est la mutuelle qui verse
+      mensuellement une somme forfaitaire fixe à la maison médicale pour vos
+      soins.
+    title: Combien ça coûte ?
+  q4:
+    content: >-
+      * La médecine générale (les consultations, les visites à domicile, les
+      actes sont payés par la mutuelle)
+
+      * Les soins infirmiers
+
+
+      #### Les autres soins ne sont pas inclus dans le forfait, c'est à dire les
+      consultations des spécialistes
+    title: Quels sont les services inclus dans le forfait ?
+  q5:
+    content: >-
+      Vous pouvez consulter d'autres médecins spécialistes en dehors de la
+      Maison Médicale et vous serez remboursés d'une manière normale.
+
+
+      **Par contre, vous ne pouvez pas consulter à l'extérieur de la maison
+      médicale pour ce qui est inclus dans le forfait.** C'est à dire: La
+      médecine générale et les soins infirmiers.
     title: Est-ce que j'ai le droit d'aller consulter un autre médecin ?
 hero: /assets/img/fonctionnement.jpg
 ---
