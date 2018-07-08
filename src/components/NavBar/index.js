@@ -9,10 +9,10 @@ import styles from './index.css';
 import Logo from '../Logo';
 
 const NavBar = ({menu, handleClick}) => (
-  <Menu inverted className="nav-bar large">
-    <Menu.Item className={styles.logo} header>
+  <Menu inverted className={`nav-bar large ${styles.navBar}`}>
+    <Menu.Item header>
       <Link to={'/'} style={{lineHeight: 0}}>
-        <Logo height="32px" />
+        <Logo className={styles.logoStyle} />
       </Link>
     </Menu.Item>
     {Object.entries(menu).map(([key, {title, link}]) => (
