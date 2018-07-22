@@ -13,6 +13,6 @@ Les soins infirmiers sont les soins prodigués aux individus de tous âges, mala
 
 Du lundi au vendredi de 8h30 à 12h30
 
-## Prix
+## Fonctionnement
 
-A la Maison Médicale de Cureghem, nous mettons à disposition une équipe d’infirmiers et d’infirmières au cabinet et à domicile pour toutes les personnes nécessiteuses. Les soins infirmiers seront ensuite facturés aux différentes mutuelles des patients.
+A la Maison Médicale de Cureghem, nous mettons à disposition une équipe d’infirmiers et d’infirmières au cabinet et à domicile pour toutes les personnes nécessiteuses. Les soins infirmiers sont compris dans le forfait.

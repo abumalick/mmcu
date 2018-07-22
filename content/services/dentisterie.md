@@ -9,13 +9,9 @@ icon: /assets/services/dentisterie.svg
 
 la dentisterie est la science qui étudie les soins dentaires et leur pratique.
 
-## Activités
-
-A completer ultérieurement
-
 ## Horaires et rendez-vous
 
-A completer ultérieurement
+Disponible tous les jours du lundi au samedi entre 11h et 19h **sur rendez-vous**
 
 ## Paiement
 

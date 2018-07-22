@@ -24,6 +24,8 @@ introduction: Horaires d'ouverture
 
 ## [Service de pédiatrie](/services/pediatrie)
 
+Uniquement sur rendez-vous aux horaires suivants:
+
 - Le mardi de 14h à 17h
 - Le jeudi de 15h à 18h
 

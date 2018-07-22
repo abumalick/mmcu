@@ -13,10 +13,6 @@ La **médecine générale** est une spécialité médicale qui assure le suivi d
 
 On assure des visites en médecine générale sur rendez-vous et, également, des consultations libres, [aux horaires du service de médecine générale](/horaires#service-de-médecine-générale).
 
-## Paiement
+## Fonctionnement
 
-Notre mode de paiement est à l’acte. Nous respectons la nomenclature imposée par l’INAMI (Institut national d’assurance maladie invalidité). Le patient paie la consultation et se fait rembourser par sa mutuelle.
-
-Pour certaines catégories de patients nous pratiquons le tiers payant.
-
-[Cliquez ici pour en savoir plus sur le paiement à l'acte](/fonctionnement)
+Les soins sont compris dans le forfait. [Cliquez ici pour en savoir plus.](/fonctionnement)
