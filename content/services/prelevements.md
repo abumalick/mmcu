@@ -23,6 +23,6 @@ Pour pouvoir faire un prélèvement, il faut se munir **d'une demande émanant d
 
 ## Paiement
 
-Le centre de prélèvement est ouvert à tout le monde. L’acte infirmier sera facturé à la mutuelle du patient quel que soit son statut.
+Le centre de prélèvement est ouvert à tout le monde. Les prises de sang effectuées par les infirmières sont totalement à la charge de la maison médicale.
 
 Le(s) échantillon(s) seront confiés à un laboratoire qui transmettra la facture de ces analyses à votre mutuelle. Le ticket modérateur (partie non remboursée par la mutuelle) sera envoyé directement chez vous.
