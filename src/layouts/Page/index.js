@@ -46,7 +46,12 @@ const Page = (
 
   return (
     <div className={styles.page}>
-      <Helmet title={metaTitle} meta={meta} />
+      <Helmet title={metaTitle} meta={meta}>
+        <link
+          rel="canonical"
+          url={joinUri(process.env.PHENOMIC_USER_URL, __url)}
+        />
+      </Helmet>
       <Nav>
         {isLoading ? (
           <Loading />
