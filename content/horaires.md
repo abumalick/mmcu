@@ -16,7 +16,7 @@ introduction: Horaires d'ouverture
 ## [Service de médecine générale](/services/medecine-generale)
 
 - Du lundi au vendredi de 9h à 18h
-- Le samedi de 9h30 à 15h
+- Le samedi de 9h30 à 13h30
 
 ## [Service de kinésithérapie](/services/kinesitherapie)
 
