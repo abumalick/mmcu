@@ -22,13 +22,6 @@ introduction: Horaires d'ouverture
 
 - Du lundi au vendredi de 9h à 19h
 
-## [Service de pédiatrie](/services/pediatrie)
-
-Uniquement sur rendez-vous aux horaires suivants:
-
-- Le mardi de 14h à 17h
-- Le jeudi de 15h à 18h
-
 ## [Service de prélèvements](/services/prelevements/) [et soins infirmiers](/services/soins-infirmiers)
 
 - Du lundi au vendredi de 8h30 à 12h30.
