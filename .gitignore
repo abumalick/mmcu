@@ -2,9 +2,6 @@
 node_modules
 *.log
 
-# phenomic build
-/dist
-
 .DS_STORE
 
 /public
